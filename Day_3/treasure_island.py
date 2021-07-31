@@ -8,7 +8,7 @@ if(direction == "left"):
     decision = input(
         "Type wait to 'wait' for a boat or 'swim' to swim across \n").lower()
     if(decision == "wait"):
-        print("You have arrived at the island \n")
+        print("You boarded a boat and have arrived at the island \n")
         door = input(
             "There is a house with 3 doors with colours red,blue and yellow. Choose one color. \n").lower()
         if door == "red":
@@ -22,4 +22,3 @@ if(direction == "left"):
 
 else:
     print("You turned right and fell inside a well! Game over!\n")
-
