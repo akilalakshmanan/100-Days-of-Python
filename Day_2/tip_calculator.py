@@ -12,3 +12,4 @@ total_bill = bill + total_tip
 final_split_bill = round(total_bill/people_split_bill, 2)
 
 print("Each person should pay: $" + str(final_split_bill))
+ 
