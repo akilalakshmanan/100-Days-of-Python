@@ -6,7 +6,7 @@ total_letters = int(
     input("How many letters would you like in your password?\n"))
 total_digits = int(input("How many digits would you like in your password?\n"))
 total_symbols = int(
-    input("How many symbols would you like in your password?\n"))
+    input("How many symbols would you like in your password?\n")) 
 
 
 letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n',
