@@ -37,5 +37,5 @@ random.shuffle(password_list)
 
 password = ""
 for char in password_list:
-    password = password + char
+    password = password + char 
 print(f"Your password is {password}")
