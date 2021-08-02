@@ -21,4 +21,4 @@ if(direction == "left"):
         print("You tried swimming and got attacked by crocodile! Game over!\n")
 
 else:
-    print("You turned right and fell inside a well! Game over!\n")
+    print("You turned right and fell inside a well! Game over!\n") 
