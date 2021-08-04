@@ -22,7 +22,7 @@ lives = 6
 while(game_ended == False):
     guess = input("Enter a letter to guess: ")
     guess_word = guess.lower()
-
+ 
     # if the user has entered a letter they have already guessed, print the letter and let them know
     if guess_word in display:
         print(f"You've already guessed {guess_word}")
