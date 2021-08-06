@@ -1,7 +1,6 @@
 # Secret Auction Code
 from art import logo
 print(logo)
-
 bids = {}
 bidding_finished = False
 
@@ -27,6 +26,4 @@ while not bidding_finished:
         "Are there any other bidders? Type 'yes' or 'no'. ")
     if should_continue == 'no':
         bidding_finished = True
-        find_highest_bidder(bids)
-    elif should_continue == 'yes':
         find_highest_bidder(bids)
