@@ -27,3 +27,4 @@ while not bidding_finished:
     if should_continue == 'no':
         bidding_finished = True
         find_highest_bidder(bids)
+ 
