@@ -24,7 +24,7 @@ calc = {"+": add,
 
 def calculator():
     num1 = float(input("What's the first number? "))
-
+ 
     for keys in calc:
         print(keys)
     should_continue = True
