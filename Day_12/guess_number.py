@@ -39,7 +39,7 @@ def game_hard():
     number = int(random.randint(1, 100))
     print(f"the guessed number is: {number}")
     global attempts_rem_hard
-    game_over = False
+    game_over = False 
     print(f"You have {attempts_rem_hard} chances to guess the number")
     while(attempts_rem_hard != 0) and (not game_over):
         user_guess = int(input("Make a guess: "))
