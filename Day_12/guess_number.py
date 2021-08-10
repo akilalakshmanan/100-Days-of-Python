@@ -7,7 +7,7 @@ attempts_rem_hard = 5
 difficulty_level = input(
     "Choose a difficulty level. Type 'easy' or 'hard': ").lower()
 
-
+ 
 def game_easy():
     number = random.randint(1, 100)
     #print(f"the guessed number is: {number}")
