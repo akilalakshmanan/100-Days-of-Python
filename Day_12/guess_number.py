@@ -10,7 +10,7 @@ difficulty_level = input(
 
 def game_easy():
     number = random.randint(1, 100)
-    print(f"the guessed number is: {number}")
+    #print(f"the guessed number is: {number}")
     global attempts_rem_easy
     game_over = False
     print(f"You have {attempts_rem_easy} chances to guess the number")
