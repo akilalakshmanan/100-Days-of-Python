@@ -7,7 +7,7 @@ screen.title("U.S. States Game!")
 # to load the image in the turtle gui
 image = "blank_states_img.gif"
 screen.addshape(image)
-
+ 
 turtle.shape(image)
 
 data = pandas.read_csv("50_states.csv")
