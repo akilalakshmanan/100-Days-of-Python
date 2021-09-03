@@ -9,7 +9,7 @@ COMPANY_NAME = "Tesla Inc"
 
 STOCK_ENDPOINT = "https://www.alphavantage.co/query"
 NEWS_ENDPOINT = "https://newsapi.org/v2/everything"
-
+ 
 STOCK_API_KEY = "YOUR OWN API KEY FROM ALPHAVANTAGE"
 NEWS_API_KEY = "YOUR OWN API KEY FROM NEWSAPI"
 TWILIO_SID = "YOUR TWILIO ACCOUNT SID"
