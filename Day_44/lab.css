@@ -1,0 +1,38 @@
+header,footer{
+	display: block;
+	background-color:lightblue;
+	text-align: center;
+}
+
+
+body{
+	background-color:#66c2ff; 
+}
+
+div{
+	color: black;
+	font-family: Times New Roman;
+	font-size: 16px;
+	border: #cc99ff;
+	border-width: 5px;
+	border-style: ridge;
+	
+}
+
+h3.hello{
+	font-style: italic;
+	font-size: 30px;
+	text-decoration:underline;
+}
+
+h3{
+	font-style: italic;
+	font-size: 30px;
+}
+
+h4{
+	font-style:italic;
+	font-family: Verdana;
+	font-size: 20px;
+}
+
